@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper{
+    border: 2px solid;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button{
+        padding: 3px;
+        &:active{
+            background-color: red;
+        }
+    }
+}
