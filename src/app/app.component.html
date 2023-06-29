@@ -5,6 +5,7 @@
     <hr>
     <div class="dummyWrapper" *ngIf="1000 as size">
         <!-- <app-dummy-default *ngFor="let item of size | generateArray"></app-dummy-default> -->
-        <app-dummy-on-push *ngFor="let item of size | generateArray"></app-dummy-on-push>
+        <!-- <app-dummy-on-push *ngFor="let item of size | generateArray"></app-dummy-on-push> -->
+        <app-dummy-detach *ngFor="let item of size | generateArray"></app-dummy-detach>
     </div>
 </main>
